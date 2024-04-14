@@ -54,7 +54,7 @@ body {
 
   #foto_presentacion {
     width: 500px;
-    height: 200px;
+    height: 250px;
   }
 
   #texto_presentacion {
@@ -88,6 +88,7 @@ body {
 
   .photo {
     display: flex;
+    flex: 1;
     flex-direction: column;
     width: 130px;
     text-align: center;
