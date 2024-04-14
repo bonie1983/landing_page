@@ -6,53 +6,55 @@
     <title>LANDING PAGE</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
     <div class="header">
         <div class="header-logo">Header Logo</div>
         <div class="header-links">
-            <ul>
+            <ul class="header-menu">
                 <li><a href="#">header link one</a></li>
                 <li><a href="#">header link two</a></li>
                 <li><a href="#">header link three</a></li>
             </ul>
         </div>
     </div>
-
     <div class="presentacion">
-        <div class="izquerda">
-            <div>This Website is awesome</div>
-            <div>This website has some subtext that goes here under the
+        <div class="izquierda">
+            <div id="titulo_presentacion">This Website is awesome</div>
+            <div id="texto_presentacion">This website has some subtext that goes here under the
                 main title. It's a smaller font and the color is lower contrast
             </div>
-            <button class="signup" id="azul">Sign up</button>
+            <button class="signup" id="azul"><a href="#">Sign up</a></button>
         </div>
+        <img id="foto_presentacion" src="./Foto1.png" alt="Foto de ejemplo">
     </div>
-
     <div class="bloque1">
-        <div>Some ramdom information.</div>
+        <div id="block1_title">Some random information.</div>
         <div class="photos">
-            <div class="photo"><img src=""></div>
-            <div class="photo"><img src=""></div>
-            <div class="photo"><img src=""></div>
-            <div class="photo"><img src=""></div>
+            <div class="photo"><img class="foto_carrusel"src="./Foto1.png">This is some subtext under an illustration or image</div>
+            <div class="photo"><img class="foto_carrusel"src="./Foto1.png">This is some subtext under an illustration or image</div>
+            <div class="photo"><img class="foto_carrusel"src="./Foto1.png">This is some subtext under an illustration or image</div>
+            <div class="photo"><img class="foto_carrusel"src="./Foto1.png">This is some subtext under an illustration or image</div>
         </div>
     </div>
     <div class="bloque2">
         <div id="quote">This is an inspiring quote, or a testimonial from a 
             customer. Maybe it's just filling up space, or Maybe
             people will actually read it. Who knows? All I know it's 
-            That it looks nice.
+            that it looks nice.
         </div>
-        <div id="artist">Thor, God or Thunder</div>
+        <div id="artist">-Thor, God or Thunder</div>
     </div>
     <div class="bloque3">
-        <div>Call to action! It's time!</div>
-        <div>Sign up for our product by clicking that button right over there!</div>
-        <button class="signup" id="borde-blanco">Sign up</button>
+        <div class="recuadro">
+            <div class="bloque3-texto">
+                <div>Call to action! It's time!</div>
+                <div>Sign up for our product by clicking that button right over there!</div>
+            </div>
+            <button class="signup" id="borde-blanco"><a href="#">Sign up</a></button>
+        </div>
     </div>
 
-    <dif class="footer">Copyright C The Odin Project 2021</dif>
-
-    
+    <div class="footer">Copyright C The Odin Project 2021</div>
 </body>
 </html>

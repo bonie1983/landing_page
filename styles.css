@@ -1,0 +1,164 @@
+/* * {
+  border: solid red 2px;
+} */
+
+body {
+    margin: 0;
+    overflow: flow;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul {
+    list-style:none;
+  }
+
+  .header-menu {
+    display: flex;
+    gap: 25px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #C5C7CE;
+  }
+
+  #foto_presentacion {
+    width: 500px;
+    height: 200px;
+  }
+
+  .header-logo {
+    color: #FFFFFF;
+    align-content: center;
+    font-weight: bold;
+  }
+
+  .header {
+    background-color: rgb(31, 41, 55);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    flex-shrink: 0;
+  }
+
+  .presentacion {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 50px;
+  }
+
+  #titulo_presentacion {
+    color:#FFFFFF;
+    font-size:xx-large;
+  }
+
+  #texto_presentacion {
+    color: #C5C7CE;
+  }
+
+  .izquierda {
+    width: 500px;
+  }
+
+  .bloque1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+  }
+
+  #block1_title {
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: xx-large;
+  }
+
+  .photos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .photo {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+  }
+
+  .foto_carrusel {
+    height: 100px;
+    width: 100px;
+  }
+
+  .bloque2 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5rem 25rem;
+  }
+
+  #quote {
+    font-size: large;
+    font-style: oblique;
+    color: #2B3442;
+    text-align: left;
+  }
+
+  #artist {
+    font-weight: bold;
+    text-align: end;
+  }
+
+  .bloque3 {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    height: 1000px;
+  }
+
+  .recuadro {
+    display: flex;
+    justify-content: space-between;
+    height: 70%;
+    width: 80%;
+    background-color: #3C82F6;
+    padding: 2rem 4rem;
+  }
+
+  .bloque3-texto {
+    color: #FFFFFF;
+  }
+
+  .snippet {
+    color: #FFFFFF;
+  }
+
+  .footer {
+    background-color: #1F2937;
+    height: 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+  }
+
+  button {
+    font-size: 1rem;
+    font-weight: 500;
+    padding:0.50rem 2rem;
+    color: white;
+    background: #3C82F6;
+    border-radius: 0.55rem;
+  }
+
+  #borde-blanco {
+    border-radius: #FFFFFF;
+  }
