@@ -10,37 +10,25 @@ body {
     flex-direction: column;
   }
 
-  ul {
-    list-style:none;
-  }
-
-  .header-menu {
+  .header {
+    background-color: rgb(31, 41, 55);
     display: flex;
-    gap: 25px;
-  }
-
-  a {
-    text-decoration: none;
-    color: #C5C7CE;
-  }
-
-  #foto_presentacion {
-    width: 500px;
-    height: 200px;
+    flex-shrink: 1;
+    justify-content: space-between;
+    padding: 0 12rem;
   }
 
   .header-logo {
     color: #FFFFFF;
     align-content: center;
     font-weight: bold;
+    font-size: 1.5rem;
   }
 
-  .header {
-    background-color: rgb(31, 41, 55);
+  .header-menu {
     display: flex;
-    justify-content: space-between;
-    padding: 0 100px;
-    flex-shrink: 0;
+    gap: 25px;
+    font-size: 1.1rem;
   }
 
   .presentacion {
@@ -49,20 +37,29 @@ body {
     justify-content: center;
     align-items: center;
     padding: 100px;
-    gap: 50px;
+    gap: 60px;
+    height: 19rem;
+  }
+
+  .izquierda {
+    width: 400px;
+    gap: 1rem;
   }
 
   #titulo_presentacion {
     color:#FFFFFF;
-    font-size:xx-large;
+    font-size: 2.7rem;
+    font-weight: bold;
+  }
+
+  #foto_presentacion {
+    width: 500px;
+    height: 200px;
   }
 
   #texto_presentacion {
     color: #C5C7CE;
-  }
-
-  .izquierda {
-    width: 500px;
+    margin-bottom: 1rem;
   }
 
   .bloque1 {
@@ -70,74 +67,92 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 4rem;
+    height: 25rem;
   }
 
   #block1_title {
     color: #1F2937;
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: 2.2rem;
   }
 
   .photos {
     display: flex;
+    flex: auto;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 6rem;
     margin-top: 2rem;
+    width: 60rem;
   }
 
   .photo {
     display: flex;
     flex-direction: column;
-    width: 100px;
+    width: 130px;
+    text-align: center;
+    align-items: center;
+    color: #5D6673;
+    font-size: large;
   }
 
   .foto_carrusel {
-    height: 100px;
-    width: 100px;
+    height: 190px;
+    width: 190px;
+    border-radius: 0.55rem;
   }
 
   .bloque2 {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
-    padding: 5rem 25rem;
+    height: 29rem;
+    padding: 0 15rem;
   }
 
   #quote {
-    font-size: large;
+    font-size: 2.3rem;
     font-style: oblique;
-    color: #2B3442;
+    color: #212B39;
     text-align: left;
+    font-weight: lighter;
   }
 
   #artist {
     font-weight: bold;
     text-align: end;
+    font-size: 1.5rem;
   }
 
   .bloque3 {
     display: flex;
-    justify-content: center;
     flex: 1;
-    height: 1000px;
+    justify-content: center;
+    align-content: center;
+    margin: 5rem;
   }
 
   .recuadro {
     display: flex;
+    flex: 1;
     justify-content: space-between;
-    height: 70%;
-    width: 80%;
+    align-items: center;
     background-color: #3C82F6;
-    padding: 2rem 4rem;
+    padding: 4rem 9rem;
+    border-radius: 0.55rem;
+    max-height: 5rem;
   }
 
   .bloque3-texto {
-    color: #FFFFFF;
+    color: #E4E6EC;
+    font-size: larger;
   }
 
-  .snippet {
+  #action {
+    font-size: 2rem;
+    font-weight: bold;
     color: #FFFFFF;
   }
 
@@ -147,10 +162,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFFFFF;
+    color: #D8D9DB;
+    font-size:large;
   }
 
   button {
+    border: none;
     font-size: 1rem;
     font-weight: 500;
     padding:0.50rem 2rem;
@@ -159,6 +176,17 @@ body {
     border-radius: 0.55rem;
   }
 
+  a {
+    text-decoration: none;
+    color: #C5C7CE;
+  }
+
+  ul {
+    list-style:none;
+  }
+
   #borde-blanco {
-    border-radius: #FFFFFF;
+    border: 2.5px solid white;
+    color: white;
+    font-size: large;
   }
